@@ -1,0 +1,65 @@
+body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.title{
+     margin-bottom: 15px;
+     text-align: center;
+     font-size: 36px;
+     font-weight: bold;
+     color:black;
+
+
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  width:900px;
+  border: 2px solid black;
+  background-color: rgb(150, 246, 214);
+  border-radius: 5%;
+}
+
+
+.box {
+  width: 700px;
+  height: 500px;
+  background: lightgrey;
+  border-radius: 5%;
+}
+.box h3{
+    text-align: center;
+    color:grey;
+}
+form input{
+    width:650px;
+    height: 40px;
+
+    
+}
+form button{
+    background-color: lightskyblue;
+    border-radius: 10%;
+
+}
+.continue{
+    margin-left: 500px;
+
+}
+nav{
+    margin-left: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:red;
+    margin-left: 80px;
+
+}
